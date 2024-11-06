@@ -1,0 +1,167 @@
+@media screen and (max-width: 1400px) {
+  .Profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+    padding: 30px;
+    gap: 14rem;
+  }
+
+  #hamburger-menu {
+    display: flex;
+    text-align: end;
+  }
+
+  .Skills,
+  .skills-container {
+    margin-top: 1rem;
+  }
+
+  .Profile {
+    padding: 12vh 0 5vh 0;
+  }
+
+  .Profile,
+  .Details {
+    display: block;
+  }
+
+  #greet {
+    font-size: 20px;
+  }
+
+  #name {
+    font-size: 20px;
+  }
+
+  .Social-Media {
+    font-size: 20px;
+  }
+
+  .btn-container {
+    font-size: 10px;
+  }
+
+  section,
+  .Details,
+  .about-container,
+  .skills-container,
+  .contact-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 7.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .carrer-details {
+    padding: 0%;
+  }
+
+  .about-details {
+    padding: 0%;
+  }
+
+  .Skills {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 0;
+    margin-bottom: 2vh;
+  }
+  .skills-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  /* Projects */
+
+  .project-pic {
+    height: 18vh;
+    width: 36vh;
+    border-radius: 20px;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1.5px;
+    border-radius: 5vh;
+    padding: 0 5vh 0 5vh;
+    gap: 5vh;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    padding-top: 5vh;
+  }
+
+  .pic {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+
+  .about-pic {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .About {
+    padding-top: 5vh;
+    margin-bottom: 0;
+  }
+
+  /* Contact */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0vh;
+    padding-top: 5vh;
+  }
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15px;
+  }
+
+  .foot-bottom {
+    font-size: 10px;
+    padding: 20px;
+  }
+
+  .arrow {
+    display: none;
+  }
+}
