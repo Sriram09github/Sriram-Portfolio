@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-mm5q4w!5r#&8(i%vly+_dp8*2v(5(ud@@&r#sgy0!czcvkn6*%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['sriram-portfolio-website.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1','Sriram Portfolio Website.com']
 
 
 # Application definition
@@ -140,6 +140,3 @@ import dj_database_url
 DATABASES = {
     'default': dj_database_url.config(default='sqlite:///db.sqlite3')  # Default to SQLite for local dev
 }
-
-# import django_heroku
-# django_heroku.settings(locals())
